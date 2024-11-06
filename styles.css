@@ -39,7 +39,7 @@ main {
 .form-section {
     margin-top: 16px;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .form-section h2 {
@@ -54,3 +54,20 @@ form {
 label {
     margin-top: 8px;
 }
+
+input {
+    padding: 8px; 
+    margin-top: 8px; 
+    border: 1px solid #1f3482;
+    border-radius: 8px; 
+}
+
+.confirmation-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px; 
+    padding: 8px; 
+    border-radius: 8px; 
+    text-align: justify-all
+}
+
