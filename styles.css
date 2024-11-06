@@ -13,3 +13,10 @@ body {
     min-height: 100vh;
     background-color: #fef6df;
 }
+
+header, footer, .form-section {
+    color: #1f3482;
+    text-align: center;
+    padding: 1em 0;
+    text-align: center;
+}
