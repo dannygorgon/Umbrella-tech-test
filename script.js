@@ -1,6 +1,7 @@
 const modal = document.getElementById("terms-modal");
 const openModal = document.querySelectorAll(".open-modal");
 const closeModal = document.querySelector(".close-button");
+const clickFormItem = document.querySelectorAll('input');
 
 openModal.forEach((link) => {
   link.addEventListener("click", function (e) {
@@ -19,4 +20,18 @@ window.addEventListener("click", function (e) {
   if (e.target === modal) {
     modal.style.display = "none";
   }
+});
+
+
+clickFormItem.forEach(input => {
+  input.addEventListener("blur", function() {
+      if (input.value.trim() !== "") {
+          input.classList.add("input-remove-focus");
+      } else {
+          input.classList.remove("input-remove-focus");
+      }
+  });
+  input.addEventListener("focus", function() {
+    input.classList.remove("input-remove-focus");
+});
 });
