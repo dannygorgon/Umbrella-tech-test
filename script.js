@@ -26,12 +26,12 @@ window.addEventListener("click", function (e) {
 clickFormItem.forEach(input => {
   input.addEventListener("blur", function() {
       if (input.value.trim() !== "") {
-          input.classList.add("input-remove-focus");
+          input.classList.add("form-shadow");
       } else {
-          input.classList.remove("input-remove-focus");
+          input.classList.remove("form-shadow");
       }
   });
   input.addEventListener("focus", function() {
-    input.classList.remove("input-remove-focus");
+    input.classList.remove("form-shadow");
 });
 });
