@@ -171,6 +171,19 @@ button:hover {
   cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+
+  .form-section {
+      max-width: 100%;
+      padding: 8px;
+  }
+  .image-section img {
+      width: 80%;
+      display: flex;
+      justify-self: center;
+  }
+}
+
 @media (max-width: 750px) {
   body {
       flex-direction: column;
@@ -183,5 +196,31 @@ button:hover {
       width: 70%;
       display: flex;
       justify-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+}
+  .form-section {
+      max-width: 100%;
+      padding: 8px;
+  }
+  .image-section img {
+      width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    flex-direction: column;
+}
+  .form-section {
+      max-width: 100%;
+      padding: 8px;
+  }
+  .image-section img {
+      width: 50%;
   }
 }
