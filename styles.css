@@ -64,7 +64,6 @@ main {
 
 
 .image-section:hover {
-  transform: scale(1.05);
   box-shadow: rgba(240, 179, 46, 0.4) 5px 5px, rgba(245, 227, 28, 0.3) 10px 10px, rgba(240, 204, 46, 0.2) 15px 15px, rgba(39, 17, 237, 0.1) 20px 20px, rgba(25, 146, 245, 0.05) 25px 25px;
 }
 
@@ -181,7 +180,7 @@ button:hover {
       padding: 8px;
   }
   .image-section img {
-      width: 80%;
+      width: 70%;
       display: flex;
       justify-self: center;
   }
